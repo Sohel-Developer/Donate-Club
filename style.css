@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 80px 0px;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Header Section */
+
+#header{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)),  url(./images/images/donation2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.header-title{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.header-title h1{
+    font-size: 80px;
+    text-align: center;
+}
+.header-title p{
+    margin: 20px 0px;
+    font-size: 22px;
+}
+.btn{
+    padding: 16px 16px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
